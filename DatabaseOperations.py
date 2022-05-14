@@ -3,8 +3,8 @@ import mysql.connector
 con= mysql.connector.connect(
   host="localhost",
   user="root",
-  passwd="*******",
-  database="******"
+  passwd="mypassword",
+  database="companydatabase"
 )
 
 def check_employee(ssn):
